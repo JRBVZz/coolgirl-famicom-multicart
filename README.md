@@ -12,7 +12,7 @@ Full characteristics:
 ## How to build
 ### Hardware
 #### Bill of materials
-![BoM](CoolGirl_rev6.x/hardware/bom.png)
+[BoM](CoolGirl_rev6.4-KiCad/Coolgirl-iBOM.html)
 
 #### Schematic
 ![Schematic](CoolGirl_rev6.x/hardware/schematic.png)
