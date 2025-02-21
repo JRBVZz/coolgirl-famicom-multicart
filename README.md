@@ -9,9 +9,9 @@ Full characteristics:
 * CHR RAM: up to 512 KiB
 * PRG RAM: 32 KiB, non-volatile (FRAM) (optional)
 
-You can use FRAM or SRAM with Battery. If you select FRAM (18W08 or 18L08), just solder jumper "FRAM". With SRAM (e.g. CY62256VLL)+Battery you need solder D2, D3, R4.
+--> You can use FRAM or SRAM with Battery. If you select FRAM (18W08 or 18L08), just solder jumper "FRAM". With SRAM (e.g. CY62256VLL)+Battery you need solder D2, D3, R4.
 ## How to build
-### Hardware - KiCad Version
+### Hardware - KiCad 8 Version
 #### Bill of materials
 Dowload [BoM](CoolGirl_rev6.4-KiCad/Coolgirl-iBOM.html) and use interactive map.
 
