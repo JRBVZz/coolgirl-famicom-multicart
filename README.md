@@ -9,28 +9,27 @@ Full characteristics:
 * CHR RAM: up to 512 KiB
 * PRG RAM: 32 KiB, non-volatile (FRAM) (optional)
 
+You can use FRAM or SRAM with Battery. If you select FRAM (18W08 or 18L08), just solder jumper "FRAM". With SRAM (e.g. CY62256VLL)+Battery you need solder D2, D3, R4.
 ## How to build
-### Hardware
+### Hardware - KiCad Version
 #### Bill of materials
-[BoM](CoolGirl_rev6.4-KiCad/Coolgirl-iBOM.html)
+Dowload [BoM](CoolGirl_rev6.4-KiCad/Coolgirl-iBOM.html) and use interactive map.
 
 #### Schematic
-![Schematic](CoolGirl_rev6.x/hardware/schematic.png)
+[Schematic](CoolGirl_rev6.4-KiCad/CG-Schematic.jpg) picture
 
-The [source file](CoolGirl_rev6.x/hardware/schematic.dch) can be opened using the [DipTrace](https://diptrace.com/).
+The [source file](CoolGirl_rev6.4-KiCad/Coolgirl.kicad_sch) can be opened using the [KiCad 8](https://www.kicad.org/).
 
 #### Board
 Board designed for order on [jlcpcb.com](https://jlcpcb.com).
 
-![image](https://user-images.githubusercontent.com/4236181/210751597-ae77ee0d-9d19-49fe-be6a-2fbb7411e66e.png)
+![image](CoolGirl_rev6.4-KiCad/Coolgirl.jpg)
 
-* Layers: 4
+* Layers: 2
 * PCB Thickness: 1.2mm
 * Golden fingers highly recommended
 
-The [source file](CoolGirl_rev6.x/hardware/board.dip) can be opened using the [DipTrace](https://diptrace.com/).
-
-Generated gerberes are located in the [CoolGirl_rev6.x/hardware](CoolGirl_rev6.x/hardware) directory.
+The [source file](CoolGirl_rev6.4-KiCad/Coolgirl.kicad_pcb) can be opened using the [KiCad 8](https://www.kicad.org/).
 
 ### Firmware
 EPM1270T144 CPLD firmware can be compiled using the [Quartus 22.1](https://www.intel.com/content/www/us/en/collections/products/fpga/software/downloads.html?s=Newest&f:guidetm83741EA404664A899395C861EDA3D38B=%5BIntel%C2%AE%20MAX%C2%AE%20CPLDs%20and%20FPGAs%3BMAX%C2%AE%20II%20CPLDs%5D). Open [CoolGirl.qpf](CoolGirl_rev6.x/CoolGirl.qpf) to configure and compile project.
